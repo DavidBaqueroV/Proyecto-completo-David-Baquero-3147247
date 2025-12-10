@@ -1,0 +1,9 @@
+[build]
+base = "frontend"
+command = "echo 'Frontend es estático, no requiere build'"
+publish = "frontend"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
